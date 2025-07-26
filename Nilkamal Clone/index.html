@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nilkamal Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Nilkamal</div>
+    <ul class="nav-links">
+      <li class="dropdown" id="furniture-dropdown">
+        <a href="javascript:void(0)" id="furniture-link">Furniture ▼</a>
+        <ul class="dropdown-menu" id="furniture-menu">
+          <li><a href="#">Beds</a></li>
+          <li><a href="#">Sofas</a></li>
+          <li><a href="#">Tables</a></li>
+        </ul>
+      </li>
+      <li><a href="javascript:void(0)">Mattresses</a></li>
+      <li><a href="javascript:void(0)">More</a></li>
+    </ul>
+    <div class="search-cart">
+      <input type="text" placeholder="Search..."/>
+      <button id="cart-button">Cart</button>
+    </div>
+  </nav>
+
+  <!-- Hero Slider -->
+  <section class="hero">
+    <img src="https://www.nilkamalfurniture.com/cdn/shop/files/Desktop-banner_IFFS_Bed_e52f0b0d-d0ce-428d-957d-076bba952fb9.jpg?v=1752724595" id="slider-image" alt="Hero Image">
+    <div class="slider-controls">
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+    </div>
+  </section>
+
+  <!-- Featured Products -->
+  <section class="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://imgs.search.brave.com/QGhTW7Ah_Y4v8Fa51bkTtB--iSPyHhooRJ-DMGV9Isk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc29ob2hvbWUu/Y29tL2Nkbi1jZ2kv/aW1hZ2UvZml0PWNy/b3AsZm9ybWF0PWF1/dG8scXVhbGl0eT03/NSx3aWR0aD0zMDAs/aGVpZ2h0PTQwMC9p/bWFnZXMvb3JpZ2lu/YWwvMjM4NjUxLTcw/Mjc1Mjk2NC1ob3Zl/cmpwZy5qcGc" alt="Sofa" />
+        <h3>Sofa Set</h3>
+        <p>₹15,000</p>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/61Aoyeb4d4L._AC_SX679_.jpg" alt="Chair" />
+        <h3>Plastic Chair</h3>
+        <p>₹800</p>
+      </div>
+      <div class="product-card">
+        <img src="https://m.media-amazon.com/images/I/71pgwDqqWPL._AC_SX679_.jpg" alt="Table" />
+        <h3>Study Table</h3>
+        <p>₹4,500</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Nilkamal Clone. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
